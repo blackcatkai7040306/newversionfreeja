@@ -243,7 +243,8 @@ function VoiceChatInner({ apiKey, configId }: VoiceChatProps) {
           <div className="container mx-auto px-4 max-w-3xl h-full">
             {transcript.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full text-center">
-                <div className="bg-white/20 backdrop-blur-md rounded-xl p-6 border border-white/30">
+                <div />
+                {/* <div className="bg-white/20 backdrop-blur-md rounded-xl p-6 border border-white/30">
                   <p className="text-lg font-medium text-white mb-1">
                     {isConnected
                       ? "Start speaking with Freja..."
@@ -252,7 +253,7 @@ function VoiceChatInner({ apiKey, configId }: VoiceChatProps) {
                   <p className="text-white/70 text-sm">
                     Your conversation will appear here
                   </p>
-                </div>
+                </div> */}
               </div>
             ) : (
               transcript.map((message, index) => {
