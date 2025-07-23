@@ -142,7 +142,7 @@ function VoiceChatInner({ apiKey, configId }: VoiceChatProps) {
     <div
       className="flex flex-col h-screen w-full"
       style={{
-        backgroundImage: "url('/background1.png')",
+        backgroundImage: "url('/background.png')",
         backgroundSize: "cover",
         backgroundPosition: "center top",
         backgroundRepeat: "no-repeat",
