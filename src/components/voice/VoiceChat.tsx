@@ -142,7 +142,7 @@ function VoiceChatInner({ apiKey, configId }: VoiceChatProps) {
     <div
       className="flex flex-col h-screen w-full"
       style={{
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/background1.png')",
         backgroundSize: "cover",
         backgroundPosition: "center top",
         backgroundRepeat: "no-repeat",
@@ -244,7 +244,6 @@ function VoiceChatInner({ apiKey, configId }: VoiceChatProps) {
             {transcript.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full text-center">
                 <div className="bg-white/20 backdrop-blur-md rounded-xl p-6 border border-white/30">
-                  <div className="text-4xl mb-3 animate-bounce">🎤</div>
                   <p className="text-lg font-medium text-white mb-1">
                     {isConnected
                       ? "Start speaking with Freja..."
